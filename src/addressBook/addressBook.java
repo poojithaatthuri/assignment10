@@ -50,4 +50,7 @@ public class addressBook {
 
     public void deleteContacts() {
     }
+
+    public void setaddressBookName(String addressBookName) {
+    }
 }
