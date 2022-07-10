@@ -1,47 +1,44 @@
 package addressBook;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
-public class addressBook {
-    public Contacts[] contactsArrayList;
 
+public class multipleContacts {
     public static void main(String[] args) {
 
 
         Scanner scan = new Scanner(System.in);
-        {
+        List<Contacts> contactsArrayList = new ArrayList<Contacts>();
+       // public void addContact () {
             Contacts contacts = new Contacts();
             System.out.println("FirstName: ");
-            String firstName = scan.next();
-            contacts.setFirstName(firstName);
-            System.out.println("LastName: ");
-            String lastName = scan.next();
-            contacts.setLastName(lastName);
-            System.out.println("Address: ");
-            String address = scan.next();
+            // @@ -18,21 +21,19 @@ public void addContact(){
+            String address = null;
             contacts.setAddress(address);
             System.out.println("City: ");
             String city = scan.next();
             contacts.setState(city);
+            contacts.setCity(city);
             System.out.println("State: ");
             String state = scan.next();
             contacts.setState(state);
             System.out.println("Zip: ");
             String zip = scan.next();
             contacts.setState(zip);
+            contacts.setZip(zip);
             System.out.println("phone: ");
             String phone = scan.next();
             contacts.setState(phone);
+            contacts.setPhone(phone);
             System.out.println("Email: ");
             String email = scan.next();
             contacts.setState(email);
 
             System.out.println(contacts.toString());
 
+            contacts.setEmail(email);
+            contactsArrayList.add(contacts);
         }
 
-    }
-
-    public void addContact() {
-
 
     }
-}

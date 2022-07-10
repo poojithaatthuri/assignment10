@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0aa6c4c-d402-4f2b-983a-a0b3767f2473" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addressBook/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addressBook/addressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addressBook/addressBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +38,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
       <recent name="addressBook" />
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.addressBook">
+  <component name="RunManager" selected="Application.addressBookMain">
     <configuration name="Contacts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addressBook.Contacts" />
       <module name="assignment10" />
@@ -75,8 +69,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="addressBookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addressBook.addressBookMain" />
+      <module name="assignment10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addressBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multipleContacts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addressBook.multipleContacts" />
+      <module name="assignment10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addressBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.addressBookMain" />
+        <item itemvalue="Application.multipleContacts" />
         <item itemvalue="Application.addressBook" />
         <item itemvalue="Application.Contacts" />
       </list>
