@@ -44,4 +44,7 @@ public class addressBook {
 
 
     }
+
+    public void editContacts() {
+    }
 }
